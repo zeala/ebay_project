@@ -1,0 +1,10 @@
+<application>
+  <component name="FindRecents">
+    <findStrings>
+      <find>ng-app</find>
+      <find>&quot; _ &quot;</find>
+      <find>global</find>
+      <find>list-group-i</find>
+    </findStrings>
+  </component>
+</application>
