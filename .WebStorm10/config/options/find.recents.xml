@@ -5,6 +5,8 @@
       <find>&quot; _ &quot;</find>
       <find>global</find>
       <find>list-group-i</find>
+      <find>mainct</find>
+      <find>#main</find>
     </findStrings>
   </component>
 </application>
