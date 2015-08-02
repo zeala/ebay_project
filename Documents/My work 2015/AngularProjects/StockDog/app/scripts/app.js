@@ -1,16 +1,25 @@
 'use strict';
-angular.module('stockDogApp', [
+
+/**
+ * @ngdoc overview
+ * @name stockDogApp
+ * @description
+ * # stockDogApp
+ *
+ * Main module of the application.
+ */
+angular
+  .module('stockDogApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
     'ngRoute',
     'ngSanitize',
     'ngTouch',
-    'mgcrea.ngStrap'
+    'mgcrea.ngStrap',
   ])
   .config(function ($routeProvider) {
     $routeProvider
-
       .when('/dashboard', {
         templateUrl: 'views/dashboard.html',
         controller: 'DashboardCtrl'
@@ -20,8 +29,6 @@ angular.module('stockDogApp', [
         controller: 'WatchlistCtrl'
       })
       .otherwise({
-        redirectTo: '/dashboard '
+        redirectTo: '/dashboard'
       });
-
-    console.log($routeProvider);
   });

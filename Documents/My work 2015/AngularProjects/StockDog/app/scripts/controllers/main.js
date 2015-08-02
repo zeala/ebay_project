@@ -1,5 +1,7 @@
+'use strict';
+
 angular.module('stockDogApp')
-  .controller('MainController', function ($scope, $location, WatchlistService) {
+  .controller('MainCtrl', function ($scope, $location, WatchlistService) {
     // [1] Populate watchlists for dynamic nav links
     $scope.watchlists = WatchlistService.query();
 

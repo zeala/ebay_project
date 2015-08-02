@@ -7,6 +7,16 @@
       <find>list-group-i</find>
       <find>mainct</find>
       <find>#main</find>
+      <find>stk</find>
+      <find>watchlist.html</find>
+      <find>index.htm</find>
+      <find>index.html</find>
+      <find>gotoList</find>
+      <find>location.path</find>
+      <find>loadmod</find>
+      <find>redu</find>
+      <find>woff</find>
+      <find>stock in stocks</find>
     </findStrings>
   </component>
 </application>

@@ -3,7 +3,8 @@
 angular.module('stockDogApp')
   // Register directive and inject dependencies
   .directive('stkWatchlistPanel',
-  function ($location, $modal, $routeParams, WatchlistService) {
+    function ($location, $modal, $routeParams, WatchlistService) {
+      console.log("stkWatchlistPanel directive ");
     return {
       templateUrl: 'views/templates/watchlist-panel.html',
       restrict: 'E',
@@ -41,6 +42,7 @@ angular.module('stockDogApp')
 
         // Send users to desired watchlist view
         $scope.gotoList = function (listId) {
+          console.log("gotoList, listId : " + listId)
           $location.path('watchlist/' + listId);
         };
       }
