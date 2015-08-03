@@ -15,8 +15,9 @@
       <find>location.path</find>
       <find>loadmod</find>
       <find>redu</find>
-      <find>woff</find>
       <find>stock in stocks</find>
+      <find>woff</find>
+      <find>console.lo</find>
     </findStrings>
   </component>
 </application>
