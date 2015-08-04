@@ -8,6 +8,7 @@
     <file url="file://$PROJECT_DIR$/app/scripts/controllers/main.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/scripts/controllers/watchlist.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/scripts/directives/contenteditable.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/scripts/directives/stk-sign-color.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/scripts/directives/stk-stock-row.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/scripts/directives/stk-stock-table.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/scripts/directives/stk-watchlist-panel.js" charset="UTF-8" />

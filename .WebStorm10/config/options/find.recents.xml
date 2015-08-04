@@ -18,6 +18,7 @@
       <find>stock in stocks</find>
       <find>woff</find>
       <find>console.lo</find>
+      <find>stock.sh</find>
     </findStrings>
   </component>
 </application>
